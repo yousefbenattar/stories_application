@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stories_application/sidebar.dart';
+import 'package:yodo1mas/Yodo1MasNativeAd.dart';
 
 class Stories_1 extends StatelessWidget {
   const Stories_1({super.key});
@@ -54,7 +55,14 @@ class Stories_1 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+       bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+), 
     );
   }
 }
@@ -106,7 +114,14 @@ class Stories_2 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+       bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+), 
     );
   }
 }
@@ -156,7 +171,14 @@ class Stories_3 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -206,7 +228,14 @@ class Stories_4 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -258,7 +287,14 @@ class Stories_5 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -311,7 +347,14 @@ class Stories_6 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -365,7 +408,14 @@ class Stories_7 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -419,7 +469,14 @@ class Stories_8 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -467,7 +524,14 @@ class Stories_9 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -529,7 +593,14 @@ class Stories_10 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -582,7 +653,14 @@ class Stories_11 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -634,7 +712,14 @@ class Stories_12 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -684,7 +769,14 @@ class Stories_13 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -730,7 +822,14 @@ class Stories_14 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -782,7 +881,14 @@ class Stories_15 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -835,7 +941,14 @@ class Stories_16 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -887,7 +1000,14 @@ class Stories_17 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -935,7 +1055,14 @@ class Stories_18 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -985,7 +1112,14 @@ class Stories_19 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
@@ -1041,7 +1175,14 @@ class Stories_20 extends StatelessWidget {
           ),
         ),
       ),
-      /* bottomNavigationBar: Image.asset('assets/1.jpg'), */
+        bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }

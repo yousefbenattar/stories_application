@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:stories_application/sidebar.dart';
+import 'package:yodo1mas/Yodo1MasNativeAd.dart';
 
 class About extends StatelessWidget {
   const About({super.key});
@@ -53,9 +54,19 @@ class About extends StatelessWidget {
             const SizedBox(
               height: 10,
             ),
+           
+            
           ]),
         ),
       ),
+      bottomNavigationBar: Yodo1MASNativeAd(
+    size: NativeSize.NativeSmall,
+    backgroundColor: "BLACK",
+    onLoad: () => print('Native Ad loaded:'),
+    onClosed: () => print('Native Ad clicked:'),
+    onLoadFailed: (message) =>
+    print('Native Ad $message'),
+),
     );
   }
 }
